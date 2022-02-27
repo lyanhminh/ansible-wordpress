@@ -1,0 +1,4 @@
+mysql_root_password: "password"
+mysql_db: "wordpress"
+mysql_user: "devops"
+mysql_password: "password"

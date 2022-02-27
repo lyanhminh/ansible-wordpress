@@ -1,0 +1,12 @@
+---
+
+- import_playbook: setup.yml
+  
+- hosts: all
+  become: true
+  roles:
+    - common
+    - apache
+    - php
+    - mysql
+    - wordpress 

@@ -1,0 +1,3 @@
+http_host: "minhs-test"
+http_conf: "{{ http_host }}.conf"
+http_port: "80"
